@@ -1,0 +1,135 @@
+body {
+  background-color: #067aff;
+  color: white;
+}
+
+/*#067aff #1582ff #1572fd #0084ff */
+
+form {
+  padding: 10px;
+  margin: 0 0 60px 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  margin: 0 0 9px 0;
+}
+
+img[alt='iphone-mockup'] {
+  width: 60%;
+  max-width: 300px;
+  text-align: center;
+}
+
+img[alt='profesionales-mockup'] {
+  background-color: #067aff;
+  width: 100%;
+}
+
+.form-control {
+  height: 48px;
+}
+
+/* revisar si conviene usar min-width */
+.form-row {
+  background: #00000010;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 800px;
+}
+/* el minimo que se recomienda usar es 320px*/
+
+.nav-item{
+    text-align: left;
+}
+
+.landing_top {
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 0;
+}
+
+.landing_top {
+  background-image: url(../images/profesionales_2_1_10.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: contain;
+
+}
+
+.subtitle_1 {
+  margin: auto;
+  opacity: 1.0;
+  padding: 0px 50px 50px 50px;
+  text-align: center;
+}
+
+.title_1 {
+  max-width: 700px;
+  margin: auto;
+  padding: 50px 50px 30px 50px;
+  text-align: center;
+}
+
+#android {
+  margin: 0 5px 0 0;
+}
+
+#h4_title_2{
+  margin: 30px 0 40px 0;
+}
+
+#ios {
+  margin: 0 0 0 5px;  
+}
+
+#row_1 {
+  padding: 40px 0 100px 0;
+}
+
+#row_1_col_2 {
+  text-align: center;
+}
+
+#subtitle_1_id{
+  margin: auto;
+}
+
+#title_2 {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px 50px 50px 50px;
+  text-align: center;
+}
+
+
+
+/* Form 1
+.search_landing {
+    padding: 10px;
+}
+*/
+
+#row_1 {
+  background-color: white;
+  color: #067aff;
+  margin: 0;
+}
+
+#row_2_col_2 {
+  padding: 0;
+}
+
+
