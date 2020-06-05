@@ -1,6 +1,7 @@
 body {
   background-color: #067aff;
   color: white;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
 /*#067aff #1582ff #1572fd #0084ff */
@@ -13,11 +14,25 @@ form {
 h1 {
   margin: 0;
   padding: 0;
+  font-size: 6vw; 
 }
+/* max-font-size casero - con media queries - con esto limito el tamaño de texto */
+@media screen and (min-width: 600px) {
+  h1 {
+     font-size: 40px;
+  }
+}
+
 
 h3 {
   margin: 0;
   padding: 0;
+  font-size: 4vw;
+}
+@media screen and (min-width: 600px) {
+  h3 {
+    font-size: 28px;
+  }
 }
 
 input {
@@ -84,14 +99,16 @@ img[alt='profesionales-mockup'] {
 }
 
 #android {
+  color: white;
   margin: 0 5px 0 0;
 }
 
-#h4_title_2{
+#h3_title_2{
   margin: 30px 0 40px 0;
 }
 
 #ios {
+  color: white;
   margin: 0 0 0 5px;  
 }
 
