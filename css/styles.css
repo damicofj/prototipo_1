@@ -38,6 +38,11 @@ h3 {
 input {
   margin: 0 0 9px 0;
 }
+@media screen and (max-width: 600px) {
+  input {
+  margin: 0 0 9px 0;
+  }
+}
 
 img[alt='iphone-mockup'] {
   width: 60%;
@@ -53,6 +58,11 @@ img[alt='profesionales-mockup'] {
 .form-control {
   height: 48px;
 }
+@media screen and (max-width: 600px) {
+  .form-control {
+    height: 48px;
+  }
+}
 
 /* revisar si conviene usar min-width */
 .form-row {
@@ -64,6 +74,11 @@ img[alt='profesionales-mockup'] {
   max-width: 800px;
 }
 /* el minimo que se recomienda usar es 320px*/
+@media screen and (max-width: 600px) {
+  .form-row {
+    width: 100%;
+  }
+}
 
 .nav-item{
     text-align: left;
