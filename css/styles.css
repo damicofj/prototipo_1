@@ -1,7 +1,8 @@
 body {
   background-color: #067aff;
   color: white;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
 }
 
 /*#067aff #1582ff #1572fd #0084ff */
@@ -14,16 +15,20 @@ form {
 h1 {
   margin: 0;
   padding: 0;
-  font-size: 8vw; 
+  font-size: 8vw;
+  font-weight: bold;
 }
 /* max-font-size casero - con media queries - con esto limito el tamaño de texto */
 @media screen and (min-width: 400px) {
   h1 {
-     font-size:35px;
+    font-size: 35px;
   }
 }
-
-
+@media screen and (max-width: 550px) {
+  h1 {
+    text-align: justify;
+  }
+}
 
 h3 {
   margin: 0;
@@ -41,17 +46,17 @@ input {
 }
 @media screen and (max-width: 600px) {
   input {
-  margin: 0 0 9px 0;
+    margin: 0 0 9px 0;
   }
 }
 
-img[alt='iphone-mockup'] {
+img[alt="iphone-mockup"] {
   width: 60%;
   max-width: 300px;
   text-align: center;
 }
 
-img[alt='profesionales-mockup'] {
+img[alt="profesionales-mockup"] {
   background-color: #067aff;
   width: 100%;
 }
@@ -80,9 +85,21 @@ img[alt='profesionales-mockup'] {
     width: 100%;
   }
 }
-
-.nav-item{
+@media screen and (min-width: 1050px) {
+  .form-row {
+    background: #00000020;
+    margin: 0 10px 0 50px;
     text-align: left;
+  }
+}
+
+.nav-item {
+  text-align: left;
+}
+
+.navbar-brand {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
 }
 
 .landing_top {
@@ -97,20 +114,42 @@ img[alt='profesionales-mockup'] {
   background-position-x: center;
   background-position-y: bottom;
   background-size: contain;
-
+}
+@media screen and (min-width: 1050px) {
+  .landing_top {
+    background-image: url(../images/profesionales_3_2.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: contain;
+    height: 650px;
+  }
+}
+@media screen and (min-width: 750px) {
+  .landing_top {
+    height: 650px;
+  }
 }
 
 .subtitle_1 {
   margin: auto;
-  opacity: 1.0;
+  opacity: 1;
   padding: 0px 50px 50px 50px;
   text-align: center;
 }
 @media screen and (max-width: 600px) {
   .subtitle_1 {
-  margin: auto;
-  padding: 0px 15px 15px 15px;
-  text-align: center;
+    margin: auto;
+    padding: 0px 15px 15px 15px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .subtitle_1 {
+    margin: 0 10px 0 10px;
+    text-align: left;
+    width: 400px;
+    /* text-shadow: black 1px 1px; */
   }
 }
 
@@ -122,26 +161,32 @@ img[alt='profesionales-mockup'] {
 }
 @media screen and (max-width: 600px) {
   .title_1 {
-  margin: auto;
-  padding: 15px 15px 7px 15px;
-  text-align: center;
+    margin: auto;
+    padding: 15px 15px 7px 15px;
+    text-align: center;
   }
 }
-
+@media screen and (min-width: 1050px) {
+  .title_1 {
+    margin: 0 10px 0 10px;
+    text-align: left;
+    width: 500px;
+    /* text-shadow: black 1px 0.5px; */
+  }
+}
 
 #android {
   color: white;
   margin: 0 5px 0 0;
 }
 
-
-#h3_title_2{
+#h3_title_2 {
   margin: 30px 0 40px 0;
 }
 
 #ios {
   color: white;
-  margin: 0 0 0 5px;  
+  margin: 0 0 0 5px;
 }
 
 #row_1 {
@@ -152,9 +197,6 @@ img[alt='profesionales-mockup'] {
   text-align: center;
 }
 
-#subtitle_1_id{
-  margin: auto;
-}
 
 #title_2 {
   max-width: 500px;
@@ -168,14 +210,6 @@ img[alt='profesionales-mockup'] {
   }
 }
 
-
-
-/* Form 1
-.search_landing {
-    padding: 10px;
-}
-*/
-
 #row_1 {
   background-color: white;
   color: #067aff;
@@ -185,5 +219,3 @@ img[alt='profesionales-mockup'] {
 #row_2_col_2 {
   padding: 0;
 }
-
-
