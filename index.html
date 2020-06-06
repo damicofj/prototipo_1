@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -164,81 +164,225 @@
     <!-- Features -->
 
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
+      <div class="row">
+        <div class="features-box col-lg-4">
+          <i class="icons_features fas fa-check-circle fa-4x"></i>
+          <h3 class="h3_features-box">Fácil de usar.</h3>
+          <p class="p_features-box">
+            Hecho para que personas de 1 a 99 años estén cómodos usándolo.
+          </p>
+        </div>
 
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
+        <div class="features-box col-lg-4">
+          <i class="icons_features fas fa-bullseye fa-4x"></i>
+          <h3 class="h3_features-box">Amplia Variedad.</h3>
+          <p class="p_features-box">
+            Las opiniones reales te van a ayudar a elegir. Si no te gusta, no lo
+            llamas. No hay sorpresas.
+          </p>
+        </div>
 
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+        <div class="features-box col-lg-4">
+          <i class="icons_features fas fa-heart fa-4x"></i>
+          <h3 class="h3_features-box">No es más difícil.</h3>
+          <p class="p_features-box">
+            Estábamos cansados de que nos fallen. Por eso te lo solucionamos a
+            vos.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials -->
 
     <section id="testimonials">
-      <h2>
-        I no longer have to sniff other dogs for love. I've found the hottest
-        Corgi on TinDog. Woof.
-      </h2>
-      <img src="images/dog-img.jpg" alt="dog-profile" />
-      <em>Pebbles, New York</em>
-
-      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-        <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-        <em>Beverly, Illinois</em> -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div
+            class="carousel_testimonials carousel-item active"
+            alt="First slide"
+          >
+            <h4 class="testimonial-text">
+              "Ya no me clavan más los electricistas al poder ver las reviews.
+              No lo puedo creer"
+            </h4>
+            <img
+              class="testimonials_images"
+              src="images/dog-img.jpg"
+              alt="dog-profile"
+            />
+            <em>Rosario, Santa Fe</em>
+          </div>
+          <div class="carousel_testimonials carousel-item" alt="Second slide">
+            <h4 class="testimonial-text">
+              "Los mecánicos no se me abusan más con los precios. Unos genios
+              totales!"
+            </h4>
+            <img
+              class="testimonials_images"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>CABA, Buenos Aires</em>
+          </div>
+          <div class="carousel_testimonials carousel-item" alt="Third slide">
+            <h4 class="testimonial-text">
+              "Siempre lo necesité. La mejor herramienta a la hora de contratar
+              un servicio"
+            </h4>
+            <img
+              class="testimonials_images"
+              src="images/me_1.jpg"
+              alt="lady-profile"
+            />
+            <em>Ushuaia, Tierra del Fuego</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
 
     <!-- Press -->
 
     <section id="press">
-      <img src="images/techcrunch.png" alt="tc-logo" />
-      <img src="images/tnw.png" alt="tnw-logo" />
-      <img src="images/bizinsider.png" alt="biz-insider-logo" />
-      <img src="images/mashable.png" alt="mashable-logo" />
+      <img class="press_logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press_logo" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press_logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press_logo" src="images/mashable.png" alt="mashable-logo" />
     </section>
 
     <!-- Pricing -->
 
+    
     <section id="pricing">
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
+      
+      <h1 class="planes planes_h1">Planes - leer css bootsrap example pricing</h1>
+      <h2 class="planes">Un plan para cada necesidad laboral</h2>
+      <p class="planes">
+        Tenemos planes acorde a las necesidades de cada profesional. Con
+        nosotros tu dinero vale más
+      </p>
 
-      <h3>Chihuahua</h3>
-      <h2>Free</h2>
-      <p>5 Matches Per Day</p>
-      <p>10 Messages Per Day</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+      <div class="container">
+        <!-- acá empieza el quilombo -->
+        <div class="card-deck mb-3 text-center">
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Gratis</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $0 <small class="text-muted">/ mes</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>1 celular ??</li>
+                <li>5 fotos de trabajos</li>
+                <li>280 caracteres</li>
+                <li>0 Comisión</li>
+                <li>Exposición Baja</li>
+                <li>Duración limitada ??</li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-lg btn-block btn-outline-danger"
+              >
+                Elegir
+              </button>
+            </div>
+          </div>
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Raso</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $499 <small class="text-muted">/ mes</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>2 celular</li>
+                <li>50 fotos de trabajos</li>
+                <li>2000 caracteres</li>
+                <li>0 Comisión</li>
+                <li>Exposición Media</li>
+                <li>Duración ilimitada</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-danger">
+                Elegir
+              </button>
+            </div>
+          </div>
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Profesional</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $1.499 <small class="text-muted">/ mes</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 celulares</li>
+                <li>500 fotos de trabajos</li>
+                <li>5000 caracteres</li>
+                <li>0 Comisión</li>
+                <li>Exposición Alta</li>
+                <li>Duración ilimitada</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-danger">
+                Elegir
+              </button>
+            </div>
+          </div>
+        </div>
 
-      <h3>Labrador</h3>
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-      <h3>Mastiff</h3>
-      <h2>$99 / mo</h2>
-      <p>Pirority Listing</p>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+      </div>
     </section>
 
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3>Encontra la mejor opción hoy.</h3>
+      <button type="button">Descargar</button>
+      <button type="button">Descargar</button>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright 2018 TinDog</p>
+      <p>© Copyright 2020 Referenciarte</p>
     </footer>
 
     <!-- Optional JavaScript -->
