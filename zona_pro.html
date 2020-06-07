@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" />
+
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/88247941eb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+<!-- uso mi CSS de index en esta también o es mejor práctica crear otro? -->
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="images/people_w.png"
+          width="30"
+          height="30"
+          alt=""
+          loading="lazy"
+        />
+        Referenciarte
+      </a>
+
+<!-- form -->
+<!-- sino puedo ponerle la misma form que el del index pero resumido -->
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+      <!-- Toggler (dropdown principal se llama así) -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Ingresar<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registrarme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Preguntas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="zona_pro.html">Zona de Profesionales</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <title>
+      Referenciarte
+    </title>
+    <meta
+      name="description"
+      content="El profesional que necesitas con referencias."
+    />
+  </head>
+
+  <body>
+
+    <section id="pricing">
+
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+          <p class="lead plan_pricing_p">Acá va una explicación con videos de como funciona, tienen que entender en que los beneficia. No solo verlo como vendedor sino lograr que lo entiendan como consumidores.</p>
+        </div>
+
+
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+          <h2 class="plan_pricing_h2">Planes/Precios</h2>
+          <p class="lead plan_pricing_p">Para que puedas llevar tu trabajo al siguiente nivel te traemos un plan acorde a cada necesidad. <br> 
+            Con nosotros tu dinero vale más.</p>
+        </div>
+
+        <div class="container">
+          <!-- acá empieza el quilombo -->
+          <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Gratis</h4>
+                <p>No requiere tarjeta</p>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">
+                  $0 <small class="text-muted">/ mes</small>
+                </h2>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>1 celular ??</li>
+                  <li>0 Comisión</li>
+                  <li>280 caracteres</li>
+                  <li>5 fotos de trabajos</li>
+                  <li>Exposición Baja</li>
+                  <li>Duración limitada ??</li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn btn-lg btn-block btn-outline-primary"
+                >
+                  Elegir
+                </button>
+              </div>
+            </div>
+  
+            <div class="card mb-4 box-shadow card_border">
+              <div class="card-header card-header-pagos">
+                <h4 class="my-0 font-weight-normal">Raso</h4>
+                <p>Abono por RapiPago</p>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">
+                  $199 <small class="text-muted">/ mes</small>
+                </h2>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>2 celulares</li>
+                  <li>0 Comisión</li>
+                  <li>2000 caracteres</li>
+                  <li>50 fotos de trabajos</li>
+                  <li>Exposición Clásica</li>
+                  <li>Duración ilimitada</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-primary">
+                  Elegir
+                </button>
+              </div>
+            </div>
+            
+            <div class="card mb-4 box-shadow card_border">
+              <div class="card-header card-header-pagos">
+                <h4 class="my-0 font-weight-normal">Profesional</h4>
+                <p id="card_precio_profesional">Más elegido</p>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">
+                  $999 <small class="text-muted">/ mes</small>
+                </h2>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>5 celulares</li>
+                  <li>0 Comisión</li>
+                  <li>5000 caracteres</li>
+                  <li>500 fotos de trabajos</li>
+                  <li>Exposición Destacada</li>
+                  <li>Duración ilimitada</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-primary">
+                  Elegir
+                </button>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+
+  </body>
+</html>
