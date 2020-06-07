@@ -2,7 +2,6 @@
 /* la mina lo que hace es poner los media queries al final de todo  */
 /* como si fuesen otra sección, como los comunes, . y #. Al final @media */
 
-
 /* INICIO TARGET POR: ELEMENTO */
 /*  */
 /*  */
@@ -20,6 +19,10 @@ body {
   color: white;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
     "Lucida Sans", Tahoma, sans-serif;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 /*#067aff #1582ff #1572fd #0084ff */
@@ -59,7 +62,6 @@ input {
 img[alt="iphone-mockup"] {
   width: 60%;
   max-width: 300px;
-  text-align: center;
 }
 
 img[alt="profesionales-mockup"] {
@@ -78,10 +80,6 @@ img[alt="profesionales-mockup"] {
 /*  */
 /*  */
 /*  */
-
-.btn {
--webkit-appearance: none;
-}
 
 .card-deck {
   color: black;
@@ -111,12 +109,10 @@ img[alt="profesionales-mockup"] {
 }
 
 .features-box {
-  text-align: center;
   padding: 5%;
 }
 
 .features_mas_buscados_title {
-  text-align: center;
   font-weight: bold;
   font-size: 1.7rem;
   margin: 0 0 30px 0;
@@ -135,14 +131,12 @@ img[alt="profesionales-mockup"] {
 }
 
 .features_ver_mas_button {
-  text-align: center;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 20px;
 }
 @media screen and (min-width: 750px) {
   .features_ver_mas_button {
-    text-align: center;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -252,7 +246,6 @@ img[alt="profesionales-mockup"] {
   font-style: normal;
   font-weight: 300;
   /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
-  text-align: center;
   margin: 0 auto 30px auto;
   max-width: 500px;
 }
@@ -276,13 +269,11 @@ img[alt="profesionales-mockup"] {
   margin: auto;
   opacity: 1;
   padding: 0px 50px 50px 50px;
-  text-align: center;
 }
 @media screen and (max-width: 600px) {
   .subtitle_1 {
     margin: auto;
     padding: 0px 15px 15px 15px;
-    text-align: center;
     font-size: 1.2rem;
   }
 }
@@ -315,14 +306,12 @@ img[alt="profesionales-mockup"] {
   max-width: 700px;
   margin: auto;
   padding: 50px 50px 30px 50px;
-  text-align: center;
 }
 @media screen and (max-width: 500px) {
   .title_1 {
     font-size: 30px;
     margin: auto;
     padding: 80px 30px 25px 30px;
-    text-align: center;
   }
 }
 @media screen and (min-width: 500px) {
@@ -330,7 +319,6 @@ img[alt="profesionales-mockup"] {
     font-size: 30px;
     margin: auto;
     padding: 90px 60px 25px 60px;
-    text-align: center;
   }
 }
 @media screen and (min-width: 600px) {
@@ -338,7 +326,6 @@ img[alt="profesionales-mockup"] {
     font-size: 40px;
     margin: auto;
     padding: 100px 50px 25px 50px;
-    text-align: center;
   }
 }
 @media screen and (min-width: 1050px) {
@@ -400,7 +387,6 @@ img[alt="profesionales-mockup"] {
 } */
 
 #press {
-  text-align: center;
   padding-bottom: 3%;
   background-color: white;
 }
@@ -415,18 +401,15 @@ img[alt="profesionales-mockup"] {
 }
 
 #row_1_col_2 {
-  text-align: center;
 }
 
 #testimonials {
   padding: 7% 15%;
-  text-align: center;
   background-color: white;
 }
 @media screen and (max-width: 600px) {
   #testimonials {
     padding: 3% 5%;
-    text-align: center;
   }
 }
 
@@ -434,7 +417,6 @@ img[alt="profesionales-mockup"] {
   max-width: 500px;
   margin: auto;
   padding: 50px 50px 50px 50px;
-  text-align: center;
 }
 @media screen and (max-width: 600px) {
   #title_2 {
