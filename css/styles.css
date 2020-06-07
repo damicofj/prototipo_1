@@ -1,4 +1,20 @@
 /* smartphone definition = 480px (moto g) - iphone 6 320px */
+/* la mina lo que hace es poner los media queries al final de todo  */
+/* como si fuesen otra sección, como los comunes, . y #. Al final @media */
+
+
+/* INICIO TARGET POR: ELEMENTO */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
 body {
   background-color: #067aff;
   color: white;
@@ -49,6 +65,22 @@ img[alt="iphone-mockup"] {
 img[alt="profesionales-mockup"] {
   background-color: #067aff;
   width: 100%;
+}
+
+/* INICIO TARGET POR: CLASS */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.btn {
+-webkit-appearance: none;
 }
 
 .card-deck {
@@ -208,9 +240,9 @@ img[alt="profesionales-mockup"] {
   color: white;
 }
 
-.plan_pricing_h2 {
+.plan_pricing_h3 {
   font-size: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
   font-style: normal;
   font-weight: 200;
   margin: 30px auto 20px auto;
@@ -219,7 +251,7 @@ img[alt="profesionales-mockup"] {
 .plan_pricing_p {
   font-style: normal;
   font-weight: 300;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
   text-align: center;
   margin: 0 auto 30px auto;
   max-width: 500px;
@@ -317,6 +349,18 @@ img[alt="profesionales-mockup"] {
     /* text-shadow: black 1px 0.5px; */
   }
 }
+
+/* INICIO TARGET POR: ID */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 
 #android {
   color: white;
