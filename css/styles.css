@@ -21,8 +21,7 @@ AZUL MIX GRIS: #3a79f0 */
 body {
   background-color: #067aff;
   color: white;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
-    "Lucida Sans", Tahoma, sans-serif;
+  font-family: "Segoe UI", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   text-align: center;
 }
 /* -webkit-appearance: none !important;
@@ -235,8 +234,9 @@ img[alt="profesionales-mockup"] {
 }
 
 .navbar-brand {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   font-size: 1.2rem;
+  font-weight: bold
 }
 
 .landing_top {
