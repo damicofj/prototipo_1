@@ -2,6 +2,10 @@
 /* la mina lo que hace es poner los media queries al final de todo  */
 /* como si fuesen otra sección, como los comunes, . y #. Al final @media */
 
+/* COLORES MÁS USADOS:
+AZUL BRILLANTE: #067aff
+AZUL MIX GRIS: #3a79f0 */
+
 /* INICIO TARGET POR: ELEMENTO */
 /*  */
 /*  */
@@ -30,6 +34,11 @@ appearance: none; */
 form {
   padding: 10px;
   margin: 0 0 60px 0;
+}
+
+footer {
+  background-color: white;
+  color: #3a79f0;
 }
 
 h1 {
@@ -424,6 +433,7 @@ img[alt="profesionales-mockup"] {
 #pricing {
   background-color: #067aff;
   color: white;
+  padding-bottom: 5%;
 }
 
 #row_1 {
