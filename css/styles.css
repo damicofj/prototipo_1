@@ -81,6 +81,10 @@ img[alt="profesionales-mockup"] {
 /*  */
 /*  */
 
+.btn {
+  -webkit-appearance: none !important;
+}
+
 .card-deck {
   color: black;
 }
