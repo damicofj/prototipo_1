@@ -112,6 +112,17 @@ img[alt="profesionales-mockup"] {
 .features-box {
   padding: 5%;
 }
+@media screen and (min-width: 750px) {
+  .features-box {
+    padding: 1%;
+  }
+}
+@media screen and (min-width: 750px) {
+  .features-box {
+    padding: 3%;
+  }
+}
+
 
 .features_mas_buscados_title {
   font-weight: bold;
@@ -417,7 +428,7 @@ img[alt="profesionales-mockup"] {
 #title_2 {
   max-width: 500px;
   margin: auto;
-  padding: 50px 50px 50px 50px;
+  padding: 50px 20px 50px 50px;
 }
 @media screen and (max-width: 600px) {
   #title_2 {
