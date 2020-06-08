@@ -6,6 +6,8 @@
 AZUL BRILLANTE: #067aff
 AZUL MIX GRIS: #3a79f0 */
 
+
+
 /* INICIO TARGET POR: ELEMENTO */
 /*  */
 /*  */
@@ -237,6 +239,10 @@ img[alt="profesionales-mockup"] {
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   font-size: 1.2rem;
   font-weight: bold
+}
+
+.navbar-toggler-icon {
+  color: white;
 }
 
 .landing_top {
