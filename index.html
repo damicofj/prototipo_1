@@ -139,6 +139,23 @@
     
 <!-- FALTA CAMBIARLE LA LETRA AL TITULO QUE SIGUE DE MÁS BUSCADOS Y A LOS DOS TITULOS DE ARRIBA -->
 
+<!-- FALTA ENCONTRAR LA MANERA DE QUE BUTTON TENGA HREF QUE ANDA CON JAVA SCRIPT Y LO DETECTEN LOS SCRAPERS
+O SINO QUE A TAG FUNCIONE COMO BOTÓN SIN QUE APPLE LE CAMBIE LOS ATRIBUTOS
+
+(use esto en todos los botones de la página)
+
+ESTOY USANDO ESTE CÓDIGO DENTRO DE LOS BOTONES PARA AGREGARLE LINK:
+onclick="window.location.href='mecanicos.html';"
+
+dicen que se arregla agregando al css del item este código pero no tuve resultados:
+
+-webkit-appearance: none !important;
+
+(no le puse la palabra importante, eso puede llegar a hacer diferencia)
+-->
+
+
+
 <!-- INICO DE MÁS BUSCADOS -->
 
 <section id="features_mas_buscados">
@@ -147,69 +164,69 @@
   <!-- ICONOS -->
       <div class="row row_features_mas_buscados">
         <div class="features-box col-6 col-sm-4 col-md-3">
-          <a type="button" class="btn btn-outline-light features_buttons" href="mecanicos.html">
+          <button type="button" class="btn btn-outline-light features_buttons" onclick="window.location.href='mecanicos.html';">
           <i class="icons_features fas fa-wrench fa-4x"></i>
           <h3 class="h3_features-box">Mecánico</h3>
-        </a>
+          </button>
         </div>
 
         <div class="features-box col-6 col-sm-4 col-md-3">
-          <a type="button" class="btn btn-outline-light features_buttons" href="plomeros.html">
+          <button type="button" class="btn btn-outline-light features_buttons" onclick="window.location.href='plomeros.html';">
           <i class="icons_features fas fa-faucet fa-4x"></i>
           <h3 class="h3_features-box">Plomero</h3>
-          </a>
+          </button>
         </div>
 
         <div class="features-box col-6 col-sm-4 col-md-3">
-          <a type="button" class="btn btn-outline-light features_buttons" href="electricistas.html">
+          <button type="button" class="btn btn-outline-light features_buttons" onclick="window.location.href='albanil.html';">
           <i class="icons_features fas fa-hammer fa-4x"></i>
           <h3 class="h3_features-box">Albañil</h3>
-          </a>
+          </button>
         </div>
 
         <div class="features-box col-6 col-sm-4 col-md-3">
-          <a type="button" class="btn btn-outline-light features_buttons" href="contadores.html">
+          <button type="button" class="btn btn-outline-light features_buttons" onclick="window.location.href='contador.html';">
           <i class="icons_features fas fa-calculator fa-4x"></i>
           <h3 class="h3_features-box">Contador</h3>
-          </a>
+          </button>
         </div>
         
         <div class="features-box col-6 col-sm-4 col-md-3">
-          <a type="button" class="btn btn-outline-light features_buttons" href="domesticas.html">
+          <button type="button" class="btn btn-outline-light features_buttons" onclick="window.location.href='limpieza.html';">
           <i class="icons_features fas fa-broom fa-4x"></i>
           <h3 class="h3_features-box">Limpieza</h3>
-          </a>
+          </button>
         </div>
 
         <div class="features-box col-6 col-sm-4 col-md-3">
-          <a type="button" class="btn btn-outline-light features_buttons" href="pasea_perros.html">
+          <button type="button" class="btn btn-outline-light features_buttons" onclick="window.location.href='veterinario.html';">
           <i class="icons_features fas fa-paw fa-4x"></i>
           <h3 class="h3_features-box">Vet</h3>
-          </a>
+          </button>
         </div>
         
         <div class="features-box col-6 col-sm-4 col-md-3">
-          <a type="button" class="btn btn-outline-light features_buttons features_buttons" href="medicos.html">
+          <button type="button" class="btn btn-outline-light features_buttons features_buttons" onclick="window.location.href='medico.html';">
           <i class="icons_features fas fa-stethoscope fa-4x"></i>
           <h3 class="h3_features-box">Médico</h3>
-          </a>
+          </button>
         </div>
         
         <div class="features-box col-6 col-sm-4 col-md-3">
-          <a type="button" class="btn btn-outline-light features_buttons" href="abogados.html">
+          <button type="button" class="btn btn-outline-light features_buttons" onclick="window.location.href='abogado.html';">
           <i class="icons_features fas fa-balance-scale fa-4x"></i>
           <h3 class="h3_features-box">Abogado</h3>
-          </a>
+          </button>
         </div>
       </div>
 
       <div class="features_ver_mas_button">
-      <a
-            href="ver_mas_servicios.html"
+      <button
+            onclick="window.location.href='ver_mas_servicios.html';"
             id="ios"
             type="button"
             class="btn btn-lg btn-warning"
-            >Ver más</a
+            >Ver más</button
           >
       </div>
     </section>
@@ -223,19 +240,19 @@
             Contacta gratis los mejores profesionales de tu zona.
           </h1>
           <h3 id="h3_title_2">Utilizá el buscador o descargá la App</h3>
-          <a
+          <button
             href="https://www.apple.com/ios/app-store/"
             id="ios"
             type="button"
             class="btn btn-lg btn-danger"
-            ><i class="fab fa-apple"></i> Descargar</a
+            ><i class="fab fa-apple"></i> Descargar</button
           >
-          <a
+          <button
             href="https://play.google.com/store/apps/"
             id="android"
             type="button"
             class="btn btn-lg btn-danger"
-            ><i class="fab fa-google-play"></i> Descargar</a
+            ><i class="fab fa-google-play"></i> Descargar</button
           >
         </div>
         <div id="row_1_col_2" class="col-12 col-sm-12 col-md-6 col-lg-6">
@@ -345,6 +362,11 @@
             <em>Ushuaia, Tierra del Fuego</em>
           </div>
         </div>
+
+        <!-- LOS a tag NO ANDAN EN LA PORONGA DE APPLE -->
+
+        <!-- REEMPLAZAR POR BUTTON -->
+
         <a
           class="carousel-control-prev"
           href="#carouselExampleIndicators"
@@ -392,13 +414,13 @@
         <h3 class="plan_pricing_h3">Sos Profesional?</h3>
         <p class="lead plan_pricing_p">Para que puedas llevar tu trabajo al siguiente nivel te traemos un plan acorde a cada necesidad.</p>
         
-        <a
+        <button
         type="button"
         class="btn btn-lg btn-danger"
-        href="zona_pro.html"
+        onclick="window.location.href='zona_pro.html';"
       >
         Ver Planes
-      </a>
+        </button>
       </div>
     </a>
 
