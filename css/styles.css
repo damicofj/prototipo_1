@@ -20,10 +20,10 @@ body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
     "Lucida Sans", Tahoma, sans-serif;
   text-align: center;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
+/* -webkit-appearance: none !important;
+-moz-appearance: none;
+appearance: none; */
 
 /*#067aff #1582ff #1572fd #0084ff */
 
