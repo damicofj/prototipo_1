@@ -1,6 +1,15 @@
-
-
 /* CÓDIGO MÍO AGREGADO */
+
+.col-ingreso-client{
+  margin: auto;
+  max-width: 400px;
+}
+
+.row {
+  margin: auto;
+  padding-top: 2%;
+  width: auto;
+}
 
 footer {
     background-color: white;
