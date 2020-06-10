@@ -200,7 +200,7 @@ img[alt="profesionales-mockup"] {
   margin: auto;
   padding: 10px;
   width: 80%;
-  max-width: 800px;
+  max-width: 950px;
 }
 /* el minimo que se recomienda usar es 320px*/
 @media screen and (max-width: 600px) {

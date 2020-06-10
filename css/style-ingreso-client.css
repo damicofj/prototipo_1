@@ -1,5 +1,10 @@
 /* CÓDIGO MÍO AGREGADO */
 
+footer {
+    background-color: white;
+    color: #3a79f0;
+  }
+
 .col-ingreso-client{
   margin: auto;
   max-width: 400px;
@@ -11,7 +16,24 @@
   width: auto;
 }
 
-footer {
-    background-color: white;
-    color: #3a79f0;
-  }
+/* INICIO HORIZNOTAL RULE O */
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: grey;
+}
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid grey;
+}
+.separator::before {
+  margin-right: .25em;
+}
+.separator::after {
+  margin-left: .25em;
+}
+
+/* FIN HORIZNOTAL RULE O */

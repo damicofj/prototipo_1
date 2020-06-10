@@ -1,6 +1,11 @@
-/* CÓDIGO MÍO AGREGADO */
-
 footer {
-    background-color: white;
-    color: #3a79f0;
-  }
+  color: #3a79f0;
+}
+
+.btn-buscar-navbar {
+  border-radius: 100%;
+}
+
+.btn-geo-navbar {
+  border-radius: 100%;
+}

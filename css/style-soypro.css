@@ -1,6 +1,31 @@
-/* CÓDIGO MÍO AGREGADO */
+body {
+  font-family: "Segoe UI", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS",
+    Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+}
+
+.dale-play {
+  width: 100%;
+}
 
 footer {
-    background-color: white;
-    color: #3a79f0;
-  }
+  background-color: white;
+  color: #3a79f0;
+}
+
+.h1_features_landing {
+  padding: 30px 0 0 0;
+}
+
+.landing-pro {
+  margin: auto;
+  text-align: center;
+  padding: 20px 0 40px 0;
+}
+
+.ver-planes {
+  background-color: pink;
+  margin: auto;
+  text-align: center;
+  padding: 20px 10px;
+}
