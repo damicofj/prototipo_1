@@ -6,7 +6,9 @@
 AZUL BRILLANTE: #067aff
 AZUL MIX GRIS: #3a79f0 */
 
-
+/* Con esto puedo hacer que el grosor de las letras sea mucho más fino */
+/* Queda nada que ver la página con eso, especialmente aplicado a los títulos */
+/* font-weight: 200; */
 
 /* INICIO TARGET POR: ELEMENTO */
 /*  */
@@ -23,7 +25,8 @@ AZUL MIX GRIS: #3a79f0 */
 body {
   background-color: #067aff;
   color: white;
-  font-family: "Segoe UI", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-family: "Segoe UI", "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS",
+    Verdana, "Verdana Ref", sans-serif;
   text-align: center;
 }
 /* -webkit-appearance: none !important;
@@ -91,7 +94,6 @@ img[alt="profesionales-mockup"] {
 /*  */
 /*  */
 
-
 .card-deck {
   color: black;
 }
@@ -129,18 +131,18 @@ img[alt="profesionales-mockup"] {
   background-repeat: no-repeat;
   background-position: center;
 }
- 
- .carousel-control-next {
-   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233a79f0' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-   width: 30px;
-   background-repeat: no-repeat;
-   background-position: center;
-  }
+
+.carousel-control-next {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233a79f0' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .features-box {
   padding: 5%;
 }
-@media screen and (min-width: 575px){
+@media screen and (min-width: 575px) {
   .features-box {
     padding: 2.5%;
   }
@@ -150,7 +152,6 @@ img[alt="profesionales-mockup"] {
     padding: 3%;
   }
 }
-
 
 .features_mas_buscados_title {
   font-weight: bold;
@@ -236,9 +237,10 @@ img[alt="profesionales-mockup"] {
 }
 
 .navbar-brand {
-  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
+    "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   font-size: 1.2rem;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .navbar-toggler-icon {
@@ -281,19 +283,19 @@ img[alt="profesionales-mockup"] {
 
 .plan_pricing_h3 {
   font-size: 2rem;
-  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
   font-style: normal;
-  font-weight: 200;
+  /* font-weight: 200; */
   margin: 30px auto 20px auto;
 }
+/* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
 
 .plan_pricing_p {
   font-style: normal;
-  font-weight: 300;
-  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+  /* font-weight: 300; */
   margin: 0 auto 30px auto;
   max-width: 500px;
 }
+/* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
 
 .press_logo {
   width: 15%;
@@ -446,8 +448,6 @@ img[alt="profesionales-mockup"] {
   padding: 40px 0 100px 0;
 }
 
-#row_1_col_2 {
-}
 
 #testimonials {
   padding: 7% 15%;
