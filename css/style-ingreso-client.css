@@ -6,15 +6,20 @@ footer {
 }
 
 /* Prueba para que se vea bien en iOS */
-.btn-ingreso-google {
-  -webkit-appearance: none;
-}
 
 .btn-ingreso-fb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   opacity: 1;
+}
+
+.btn-ingreso-google {
+  -webkit-appearance: none;
+}
+
+.btn-ingreso-tw {
+  -webkit-appearance: button;
 }
 
 .col-ingreso-client {
