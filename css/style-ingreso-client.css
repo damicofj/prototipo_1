@@ -7,19 +7,11 @@ footer {
 
 /* Prueba para que se vea bien en iOS */
 
-.btn-ingreso-fb {
+.btn-ingreso-fb, .btn-ingreso-google, btn-ingreso-tw {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   opacity: 1;
-}
-
-.btn-ingreso-google {
-  -webkit-appearance: none;
-}
-
-.btn-ingreso-tw {
-  -webkit-appearance: button;
 }
 
 .col-ingreso-client {
