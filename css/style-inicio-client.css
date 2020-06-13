@@ -9,3 +9,18 @@ footer {
 .btn-geo-navbar {
   border-radius: 100%;
 }
+
+.navbar {
+  height: 60px;
+}
+
+@media screen and (max-width: 640px) {
+  .nomobile {
+  display: none;
+  }
+}
+@media screen and (min-width: 641px) {
+  .mobile {
+  display: none;
+  }
+}
