@@ -31,8 +31,11 @@
     <!-- CSS de este archivo -->
     <link rel="stylesheet" href="css/style-inicio-client.css" />
 
-    <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <!-- NAV NUEVO -->
+    
+    <!-- Referenciarte Logo PC/Mobile-->
+    <!-- cambiandole el final de navbar-expand-md por lg el toggle se forma con pantallas más chicas -->
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark justify-content-end">
       <a class="navbar-brand" href="index.html">
         <img
           class="logo-mobile mobile"
@@ -44,90 +47,40 @@
         />
         <img
           class="logo-laptop nomobile"
-          src="images/people-referenciarte.png"
+          src="images/logo-referenciarte-laptop.png"
           width="150"
           height="32"
           alt=""
           loading="lazy"
         />
-        <!-- Referenciarte -->
       </a>
 
-      <!-- INICIO Search bar del navbar  -->
-      <form>
-        <div class="form-row">
-          <div class="col col-sm col-md-8 col-lg-8">
-            <input
+      <!-- Acá donde sigue guarde el input y el boton de buscar ubicación para cuando pueda hacer que la lupa se despliegue y saco estos 2 y un botón de buscar -->
+
+      <!-- <input
               type="text"
-              class="form-control"
-              placeholder="Qué servicio necesitas?"
-            />
-          </div>
+              class="navbar-form ml-auto mr-1"
+              placeholder="Buscar servicio"
+            /> -->
 
-          <!-- 
-            lo que sigue es el buscador de DONDE? anterior, ahora hay botón y pide gelocalización de default
-          -->
-          <!-- <div class="col-5 col-sm-5 col-md-5 col-lg-5">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="¿Donde?"
-            />
-          </div> -->
-          <!-- fin de busqueda manual donde? -->
+      <!-- <button type="submit" class="btn btn-warning ml-1 mr-0   btn-buscar-navbar" title="Buscar" tabindex="3"> <i class="fas fa-map-marker-alt"></i> </button> -->
+      
+      <!-- fin de input que guarde para toggler -->
+      <!-- para poder usar esto y que no se me venga todo a la derecha tengo que ponerle en la class ml-1 NO ml-auto -->
 
-          <!-- 
-            lo que sigue es del botón de geolocalización
-          -->
-          <div class="col-2 col-sm-2 col-md-2 col-lg-2">
-            <button
-              type="submit"
-              class="btn-geo-navbar btn-buscar-navbar btn btn-block btn-md search-button btn-outline-light"
-              title="Buscar"
-              tabindex="3"
-            >
-              <i class="fas fa-map-marker-alt"></i>
-            </button>
-          </div>
-          <!-- 
-            lo que sigue es del botón
-          -->
-          <div class="col-2 col-sm-2 col-md-2 col-lg">
-            <button
-              type="submit"
-              class="btn-buscar-navbar btn btn-block btn-md search-button btn-warning"
-              title="Buscar"
-              tabindex="3"
-            >
-              <i class="fas fa-search"></i>
-            </button>
-          </div>
-        </div>
-      </form>
+      <button type="submit" class="btn btn-warning ml-auto mr-2   btn-buscar-navbar" title="Buscar" tabindex="3"> <i class="fas fa-search"></i> </button>
 
-      <!-- FIN Search bar del navbar  -->
-
-      <!-- Toggler (dropdown principal se llama así) -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
+      <!-- lo que sigue es el boton toggler -->
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="ingreso-client.html"
-              >Ingresar<span class="sr-only">(current)</span></a
-            >
-          </li>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+          <ul class="navbar-nav text-right">
           <!-- La palabra "active" en el class los vuelve de color blanco brilloso en vez de gris -->
+          <li class="nav-item active">
+            <a class="nav-link" href="ingreso-client.html.html">Ingresar</a>
+          </li>
           <li class="nav-item active">
             <a class="nav-link" href="registro-client.html">Registrarme</a>
           </li>
@@ -137,10 +90,12 @@
           <li class="nav-item active">
             <a class="nav-link" href="soypro.html">Soy Profesional</a>
           </li>
-        </ul>
+          </ul>
       </div>
-    </nav>
+  </nav>
 
+    <!-- fin NAV NUEVO -->
+<!-- titulo de la página qu aparece en el buscador y arriba  -->
     <title>
       Referenciarte - Elegí profesionales con referencias.
     </title>
