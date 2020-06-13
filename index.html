@@ -28,50 +28,70 @@
     <!-- Mi CSS -->
     <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="index.html">
+    <!-- NAV NUEVO -->
+    
+    <!-- Referenciarte Logo PC/Mobile-->
+    <!-- cambiandole el final de navbar-expand-md por lg el toggle se forma con pantallas más chicas -->
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark justify-content-end">
+      <a class="navbar-brand mr-auto" href="index.html">
         <img
+          class="logo-mobile mobile"
           src="images/people_w.png"
-          width="30"
-          height="30"
+          width="32"
+          height="32"
           alt=""
           loading="lazy"
         />
-        Referenciarte
+        <img
+          class="logo-laptop nomobile"
+          src="images/logo-referenciarte-laptop.png"
+          width="150"
+          height="32"
+          alt=""
+          loading="lazy"
+        />
       </a>
-      <!-- Toggler (dropdown principal se llama así) -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+      <!-- Acá donde sigue guarde el input y el boton de buscar ubicación para cuando pueda hacer que la lupa se despliegue y saco estos 2 y un botón de buscar -->
+
+      <!-- <input
+              type="text"
+              class="navbar-form ml-auto mr-1"
+              placeholder="Buscar servicio"
+            /> -->
+
+      <!-- <button type="submit" class="btn btn-warning ml-1 mr-0   btn-buscar-navbar" title="Buscar" tabindex="3"> <i class="fas fa-map-marker-alt"></i> </button> -->
+      
+      <!-- fin de input que guarde para toggler -->
+      <!-- para poder usar esto y que no se me venga todo a la derecha tengo que ponerle en la class ml-1 NO ml-auto -->
+
+      <button type="submit" class="btn btn-warning ml-auto mr-2   btn-buscar-navbar" title="Buscar" tabindex="3"> <i class="fas fa-search"></i> </button>
+<!-- A MOMENTO LO DEJO EN DISPLAY NONE PORQUE ES EL BUSCADOR PRINCIPAL PERO EN TODAS LAS OTRAS PÁGINAS TIENE QUE ESTAR -->
+      <!-- lo que sigue es el boton toggler -->
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+          <ul class="navbar-nav text-right">
+          <!-- La palabra "active" en el class los vuelve de color blanco brilloso en vez de gris -->
           <li class="nav-item active">
-            <a class="nav-link" href="ingreso-client.html"
-              >Ingresar<span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="ingreso-client.html.html">Ingresar</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="registro-client.html">Registrarme</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="preguntas.html">Preguntas</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="soypro.html">Soy Profesional</a>
           </li>
-        </ul>
+          </ul>
       </div>
-    </nav>
+  </nav>
+
+    <!-- fin NAV NUEVO -->
 
     <title>
       Referenciarte - Elegí profesionales con referencias.
@@ -525,7 +545,7 @@ dicen que se arregla agregando al css del item este código pero no tuve resulta
           <!-- Grid column -->
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold">
-              Referenciarte.com
+              Referenciarte
             </h6>
             <p>
               Elegir el servicio que necesitas nunca fue más fácil.
@@ -539,7 +559,7 @@ dicen que se arregla agregando al css del item este código pero no tuve resulta
 
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Información</h6>
+            <h6 class="text-uppercase mb-4 font-weight-bold">Info</h6>
             <p>
               <a href="contacto.html">Contacto</a>
             </p>
