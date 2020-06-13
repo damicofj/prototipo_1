@@ -35,19 +35,28 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="index.html">
         <img
+          class="logo-mobile mobile"
           src="images/people_w.png"
-          width="30"
-          height="30"
+          width="32"
+          height="32"
           alt=""
           loading="lazy"
         />
-        Referenciarte
+        <img
+          class="logo-laptop nomobile"
+          src="images/people-referenciarte.png"
+          width="150"
+          height="32"
+          alt=""
+          loading="lazy"
+        />
+        <!-- Referenciarte -->
       </a>
 
       <!-- INICIO Search bar del navbar  -->
       <form>
         <div class="form-row">
-          <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+          <div class="col col-sm col-md-8 col-lg-8">
             <input
               type="text"
               class="form-control"
@@ -66,7 +75,7 @@
             />
           </div> -->
           <!-- fin de busqueda manual donde? -->
-          
+
           <!-- 
             lo que sigue es del botón de geolocalización
           -->
@@ -90,14 +99,14 @@
               title="Buscar"
               tabindex="3"
             >
-             <i class="fas fa-search"></i>
+              <i class="fas fa-search"></i>
             </button>
           </div>
         </div>
       </form>
 
       <!-- FIN Search bar del navbar  -->
-      
+
       <!-- Toggler (dropdown principal se llama así) -->
       <button
         class="navbar-toggler"
@@ -118,13 +127,14 @@
               >Ingresar<span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item">
+          <!-- La palabra "active" en el class los vuelve de color blanco brilloso en vez de gris -->
+          <li class="nav-item active">
             <a class="nav-link" href="registro-client.html">Registrarme</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="preguntas.html">Preguntas</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="soypro.html">Soy Profesional</a>
           </li>
         </ul>
@@ -144,15 +154,18 @@
     <!-- INICIO LANDING TOP -->
 
     <div class="inicio-client-welcome">
-
-      <a href="mensajes-client.html" class="btn btn-md btn-danger">Mensajes (client)</a>
+      <a href="mensajes-client.html" class="btn btn-md btn-danger"
+        >Mensajes (client)</a
+      >
 
       <p>Debería tener una búsqueda avanzada</p>
       <p>Debería tener sugerencias por cookies</p>
-      <p>Debería tener landing page acá también que lo hagan buscar cosas que necesite de forma intuitiva</p>
+      <p>
+        Debería tener landing page acá también que lo hagan buscar cosas que
+        necesite de forma intuitiva
+      </p>
 
       <!-- Buscador / Form -->
-
     </div>
 
     <!-- FIN LANDNING TOP -->
@@ -265,27 +278,42 @@
             <div class="text-center text-md-right">
               <ul class="list-unstyled list-inline">
                 <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#">
+                  <a
+                    class="btn-floating btn-sm rgba-white-slight mx-1"
+                    href="#"
+                  >
                     <i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#">
+                  <a
+                    class="btn-floating btn-sm rgba-white-slight mx-1"
+                    href="#"
+                  >
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#">
+                  <a
+                    class="btn-floating btn-sm rgba-white-slight mx-1"
+                    href="#"
+                  >
                     <i class="fab fa-google-plus-g"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#">
+                  <a
+                    class="btn-floating btn-sm rgba-white-slight mx-1"
+                    href="#"
+                  >
                     <i class="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#">
+                  <a
+                    class="btn-floating btn-sm rgba-white-slight mx-1"
+                    href="#"
+                  >
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                 </li>
