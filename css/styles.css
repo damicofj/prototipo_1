@@ -94,6 +94,18 @@ img[alt="profesionales-mockup"] {
 /*  */
 /*  */
 
+.btn-buscar-navbar {
+  border-radius: 100%;
+  text-align: center;
+  display: none;
+}
+/* A MOMENTO LO DEJO EN DISPLAY NONE PORQUE ES EL BUSCADOR PRINCIPAL PERO EN TODAS LAS OTRAS PÁGINAS TIENE QUE ESTAR */
+
+
+/* .btn-geo-navbar {
+  border-radius: 100%;
+} */
+
 .card-deck {
   color: black;
 }
@@ -246,6 +258,21 @@ img[alt="profesionales-mockup"] {
 .navbar-toggler-icon {
   color: white;
 }
+
+@media screen and (max-width: 640px) {
+  .nomobile {
+  display: none;
+  }
+}
+@media screen and (min-width: 641px) {
+  .mobile {
+  display: none;
+  }
+}
+
+/* .navbar-form {
+  width: 130px;
+} */
 
 .landing_top {
   height: 100%;
@@ -479,3 +506,7 @@ img[alt="profesionales-mockup"] {
 #row_2_col_2 {
   padding: 0;
 }
+
+
+
+

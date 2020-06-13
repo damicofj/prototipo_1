@@ -4,15 +4,12 @@ footer {
 
 .btn-buscar-navbar {
   border-radius: 100%;
+  text-align: center;
 }
 
-.btn-geo-navbar {
+/* .btn-geo-navbar {
   border-radius: 100%;
-}
-
-.navbar {
-  height: 60px;
-}
+} */
 
 @media screen and (max-width: 640px) {
   .nomobile {
@@ -24,3 +21,7 @@ footer {
   display: none;
   }
 }
+
+/* .navbar-form {
+  width: 130px;
+} */
