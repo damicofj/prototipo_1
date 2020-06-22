@@ -50,16 +50,8 @@
     >
       <a class="navbar-brand mr-auto" href="index.html">
         <img
-          class="logo-mobile mobile"
-          src="images/logo-referenciarte-laptop.png"
-          width="190"
-          height="40"
-          alt=""
-          loading="lazy"
-        />
-        <img
-          class="logo-laptop nomobile"
-          src="images/logo-referenciarte-laptop.png"
+          class="logo-mobile"
+          src="images/logo-referenciarte.png"
           width="190"
           height="40"
           alt=""
@@ -89,7 +81,7 @@
         <i class="fas fa-search"></i>
       </button>
       <!-- A MOMENTO LO DEJO EN DISPLAY NONE PORQUE ES EL BUSCADOR PRINCIPAL PERO EN TODAS LAS OTRAS PÁGINAS TIENE QUE ESTAR -->
-      <!-- lo que sigue es el boton toggler -->
+      <!-- lo que sigue es el boton toggler QUE TENIA ANTES SIN JAVA SCRIPT
 
       <button
         class="navbar-toggler"
@@ -102,8 +94,28 @@
       <div
         class="collapse navbar-collapse flex-grow-0"
         id="navbarSupportedContent"
+      > -->
+
+      <!-- lo que sigue es el boton toggler -->
+      <button
+        class="navbar-toggler second-button ml-auto mr-2"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent23"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        <ul class="navbar-nav text-right">
+        <div class="animated-icon2">
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </button>
+
+      <div
+        class="collapse navbar-collapse flex-grow-0"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav text-left mr-2">
           <!-- La palabra "active" en el class los vuelve de color blanco brilloso en vez de gris -->
           <li class="nav-item active">
             <a class="nav-link" href="ingreso-client.html">Ingresar</a>
@@ -305,12 +317,11 @@ dicen que se arregla agregando al css del item este código pero no tuve resulta
       <div class="features_ver_mas_button">
         <button
           onclick="window.location.href='ver_mas_servicios.html';"
-          id="ios"
           type="button"
-          class="btn btn-lg btn-outline-light"
+          class="btn btn-lg btn-warning"
         >
-        <!-- Mostrar más -->
-          <i class="fas fa-plus"></i>
+          Mostrar más
+          <!-- <i class="fas fa-plus"></i> -->
         </button>
       </div>
     </section>
@@ -575,8 +586,9 @@ dicen que se arregla agregando al css del item este código pero no tuve resulta
         <div class="row text-center text-md-left mt-3 pb-3">
           <!-- Grid column -->
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">
-              Referenciarte
+            <h6 class="mb-4">
+              <!-- text-uppercase mb-4 font-weight-bold -->
+              referenciarte.com
             </h6>
             <p>
               Elegir el servicio que necesitas nunca fue más fácil.
@@ -735,5 +747,11 @@ dicen que se arregla agregando al css del item este código pero no tuve resulta
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+
+    <!-- my JS JavaScript -->
+
+    <script src="scripts/script-inicio-client.js" charset="utf-8"></script>
+
+    <!-- FIN JavaScript -->
   </body>
 </html>
