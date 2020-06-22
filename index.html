@@ -15,15 +15,15 @@
     <!-- safari -->
     <link rel="apple-touch-icon" href="images/favicon.ico" />
     <!-- internet explorer y windows phone -->
-    <meta name="msapplication-square70x70logo" content="images/favicon.ico">
-    <meta name="msapplication-square150x150logo" content="images/favicon.ico">
-    <meta name="msapplication-wide310x150logo" content="images/favicon.ico">
+    <meta name="msapplication-square70x70logo" content="images/favicon.ico" />
+    <meta name="msapplication-square150x150logo" content="images/favicon.ico" />
+    <meta name="msapplication-wide310x150logo" content="images/favicon.ico" />
 
     <!--COLOR DEL NAVEGADOR Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#3a79f0">
-    
+    <meta name="theme-color" content="#3a79f0" />
+
     <!--COLOR DE BARRA DE arriba de todo de apple (hora, señal y eso) -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     <!-- Font Awesome Icons -->
     <script
@@ -42,24 +42,26 @@
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- NAV NUEVO -->
-    
+
     <!-- Referenciarte Logo PC/Mobile-->
     <!-- cambiandole el final de navbar-expand-md por lg el toggle se forma con pantallas más chicas -->
-    <nav class="navbar navbar-expand-md bg-primary navbar-dark justify-content-end">
+    <nav
+      class="navbar navbar-expand-md bg-color navbar-dark justify-content-end"
+    >
       <a class="navbar-brand mr-auto" href="index.html">
         <img
           class="logo-mobile mobile"
-          src="images/people_w.png"
-          width="32"
-          height="32"
+          src="images/logo-referenciarte-laptop.png"
+          width="190"
+          height="40"
           alt=""
           loading="lazy"
         />
         <img
           class="logo-laptop nomobile"
           src="images/logo-referenciarte-laptop.png"
-          width="150"
-          height="32"
+          width="190"
+          height="40"
           alt=""
           loading="lazy"
         />
@@ -74,19 +76,34 @@
             /> -->
 
       <!-- <button type="submit" class="btn btn-warning ml-1 mr-0   btn-buscar-navbar" title="Buscar" tabindex="3"> <i class="fas fa-map-marker-alt"></i> </button> -->
-      
+
       <!-- fin de input que guarde para toggler -->
       <!-- para poder usar esto y que no se me venga todo a la derecha tengo que ponerle en la class ml-1 NO ml-auto -->
 
-      <button type="submit" class="btn btn-warning ml-auto mr-2   btn-buscar-navbar" title="Buscar" tabindex="3"> <i class="fas fa-search"></i> </button>
-<!-- A MOMENTO LO DEJO EN DISPLAY NONE PORQUE ES EL BUSCADOR PRINCIPAL PERO EN TODAS LAS OTRAS PÁGINAS TIENE QUE ESTAR -->
-      <!-- lo que sigue es el boton toggler -->
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-          <span class="navbar-toggler-icon"></span>
+      <button
+        type="submit"
+        class="btn btn-warning ml-auto mr-2 btn-buscar-navbar"
+        title="Buscar"
+        tabindex="3"
+      >
+        <i class="fas fa-search"></i>
       </button>
-      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-          <ul class="navbar-nav text-right">
+      <!-- A MOMENTO LO DEJO EN DISPLAY NONE PORQUE ES EL BUSCADOR PRINCIPAL PERO EN TODAS LAS OTRAS PÁGINAS TIENE QUE ESTAR -->
+      <!-- lo que sigue es el boton toggler -->
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse flex-grow-0"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav text-right">
           <!-- La palabra "active" en el class los vuelve de color blanco brilloso en vez de gris -->
           <li class="nav-item active">
             <a class="nav-link" href="ingreso-client.html">Ingresar</a>
@@ -100,9 +117,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="soypro.html">Soy Profesional</a>
           </li>
-          </ul>
+        </ul>
       </div>
-  </nav>
+    </nav>
 
     <!-- fin NAV NUEVO -->
 
@@ -158,7 +175,7 @@
           <div class="col col-sm-12 col-md-3 col-lg-3">
             <button
               type="submit"
-              class="btn btn-block btn-lg search-button btn-warning"
+              class="btn btn-block btn-lg search-button btn-danger"
               title="Buscar"
               tabindex="3"
             >
@@ -290,9 +307,10 @@ dicen que se arregla agregando al css del item este código pero no tuve resulta
           onclick="window.location.href='ver_mas_servicios.html';"
           id="ios"
           type="button"
-          class="btn btn-lg btn-warning"
+          class="btn btn-lg btn-outline-light"
         >
-          Ver más
+        <!-- Mostrar más -->
+          <i class="fas fa-plus"></i>
         </button>
       </div>
     </section>
@@ -534,7 +552,7 @@ dicen que se arregla agregando al css del item este código pero no tuve resulta
 
         <button
           type="button"
-          class="btn btn-lg btn-danger"
+          class="btn btn-lg btn-warning"
           onclick="window.location.href='soypro.html';"
         >
           Unirme
@@ -650,27 +668,42 @@ dicen que se arregla agregando al css del item este código pero no tuve resulta
             <div class="text-center text-md-right">
               <ul class="list-unstyled list-inline">
                 <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#">
+                  <a
+                    class="btn-floating btn-sm rgba-white-slight mx-1"
+                    href="#"
+                  >
                     <i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#">
+                  <a
+                    class="btn-floating btn-sm rgba-white-slight mx-1"
+                    href="#"
+                  >
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#">
+                  <a
+                    class="btn-floating btn-sm rgba-white-slight mx-1"
+                    href="#"
+                  >
                     <i class="fab fa-google-plus-g"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#">
+                  <a
+                    class="btn-floating btn-sm rgba-white-slight mx-1"
+                    href="#"
+                  >
                     <i class="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#">
+                  <a
+                    class="btn-floating btn-sm rgba-white-slight mx-1"
+                    href="#"
+                  >
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                 </li>
